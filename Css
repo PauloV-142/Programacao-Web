@@ -1,0 +1,94 @@
+.barra{
+    background-color: #034363;
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 0.5%;
+    color: #e7f7ff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border-top: ridge #034363 10px;
+    border-left: ridge #034363 10px;
+    border-bottom: groove #034363 10px;
+    border-right: groove #034363 10px;
+}
+.links{
+    padding-left: 30px;
+    text-align: right;
+    margin-top: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: darkorange;
+}
+.pesquisa{
+    width: fit-content;
+    margin-right: 2%;
+}
+.pesquisa input {
+    background: white;
+    margin-top: 18px;
+}
+.titulo{
+    height: 100%;
+    margin-left: 2%;
+    margin-top: auto;
+}
+.left-spacing{
+    margin-left: 2%;
+}
+body{
+    background-color: #0084B8;
+    color: #e7f7ff;
+    min-height: 100%;
+    margin-bottom: 0px;
+}
+footer{
+    background-color: #034363;
+    height: 3in;
+    position: absolute;
+    height: fit-content;
+    padding-bottom: 5px;
+    color: #e7f7ff;
+    border-top: ridge #034363 12px;
+    border-left: ridge #034363 12px;
+    border-bottom: groove #034363 12px;
+    border-right: groove #034363 12px;
+    width: 100%;
+}
+.central{
+    width: 100%;
+}
+.fit-content{
+    width: fit-content;
+}
+.textoF{
+    padding: 5px;
+    height: 100%;
+}
+.ImagemC{
+    border-bottom:groove #034363 12px;
+}
+.Textoimagem{
+    color: #e7f7ff;
+    position: absolute;
+    top: 30%;
+    left: 16px;
+    justify-content: center; 
+    align-items: center;
+    z-index: 0;
+}
+.botao{
+    background-color: #034363;
+    color: #e7f7ff;
+    width: 42px;
+    min-height: 41px;
+}
+.botao:hover{
+    font-weight: bold;
+    border: solid #034363;
+}
