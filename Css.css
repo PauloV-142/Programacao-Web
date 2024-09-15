@@ -106,18 +106,18 @@ footer{
     overflow: hidden;
     list-style-type: none;  
 } 
-.horz li {
+.horz li{
     float: left;
-    margin-left: 40px;
+    margin-right:50px;
     width: 100px;
-    margin-bottom: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
 }
-.horz hr{
-    height: 30px;
-}
-  
 li span{
     display: block;
     color: white;
     text-decoration: none;
+}
+.horz a{
+    font-weight: bolder;
 }
