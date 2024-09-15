@@ -18,6 +18,10 @@
     margin-top: 20px;
     
 }
+.links a{
+    display:inline-block;
+    height: 100%;
+}
 a{
     text-decoration: none;
     color:white;
@@ -94,4 +98,26 @@ footer{
 }
 .aritgo{
     width: 33%;
+}
+.horz{
+    float: left;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;  
+} 
+.horz li {
+    float: left;
+    margin-left: 40px;
+    width: 100px;
+    margin-bottom: 40px;
+}
+.horz hr{
+    height: 30px;
+}
+  
+li span{
+    display: block;
+    color: white;
+    text-decoration: none;
 }
