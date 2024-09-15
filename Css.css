@@ -121,3 +121,10 @@ li span{
 .horz a{
     font-weight: bolder;
 }
+.search{
+    border-top: ridge #034363 10px;
+    border-left: ridge #034363 10px;
+    border-bottom: groove #034363 10px;
+    border-right: groove #034363 10px;
+    border-radius: 17px;
+}
