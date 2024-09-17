@@ -80,21 +80,25 @@ footer{
 .Textoimagem{
     color: #e7f7ff;
     position: absolute;
-    top: 30%;
-    left: 16px;
     justify-content: center; 
     align-items: center;
     z-index: 0;
     height: fit-content;
-    background-image: radial-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+    background-image: radial-gradient(rgb(0, 0, 0), rgba(0,0,0,0.2));
     border-radius: 1000px;
-    padding: 50px;
+    padding: 20px;
+}
+.l1{
+    top: 200px;
+}
+.l2{
+    top: 500px;
 }
 .botao{
     background-color: #034363;
     color: #e7f7ff;
-    width: 42px;
-    min-height: 41px;
+    width: 37px;
+    min-height: 37px;
 }
 .botao:hover{
     font-weight: bold;
