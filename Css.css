@@ -88,6 +88,9 @@ footer{
     border-radius: 1000px;
     padding: 20px;
 }
+.justify{
+    text-align: justify;
+}
 .l1{
     top: 200px;
 }
