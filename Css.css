@@ -16,7 +16,9 @@
     padding-left: 30px;
     text-align: right;
     margin-top: 20px;
-    
+}
+.mr-20{
+    margin-right: 20%;
 }
 .links a{
     display:inline-block;
@@ -32,6 +34,8 @@ a:hover{
 .pesquisa{
     width: fit-content;
     margin-right: 2%;
+    position: absolute;
+    right: 5%;
 }
 .pesquisa input {
     background: white;
@@ -91,6 +95,9 @@ footer{
 .justify{
     text-align: justify;
 }
+.text-center{
+    text-align: center;
+}
 .l1{
     top: 200px;
 }
@@ -138,4 +145,13 @@ li span{
     border-bottom: groove #034363 10px;
     border-right: groove #034363 10px;
     border-radius: 17px;
+}
+.bgimg{
+    /*min-height: 500px; */
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+.transparente{
+    
 }
